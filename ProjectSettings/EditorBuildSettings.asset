@@ -4,6 +4,33 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/00_Template.unity
+    guid: ecb527b45c2c1474a8df665011246725
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/01_MainThread_Problem.unity
+    guid: df7eeeddfdce7c544b1247f74f1ffa3f
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/01_MainThread_Improved.unity
+    guid: 5d5868faae4c38640b8dcabdf48f6e2b
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/02_WorkerThread_Problem.unity
+    guid: 23af0876b3d078345a575dc8e534b517
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/02_WorkerThread_Improved.unity
+    guid: 9b658c05bd4915743a641076bcdd3a38
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/03_RenderThread_Problem.unity
+    guid: 4800813e32bfe0b40bb173c669672bc3
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/03_RenderThread_Improved.unity
+    guid: d61d110bfbf92734a96832d00c3e99ca
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/04_GPU_Problem.unity
+    guid: 478bf02b5fc85f14bad3c21f38305129
+  - enabled: 1
+    path: Assets/03.Thread_Bottleneck/Scenes/04_GPU_Improved.unity
+    guid: ed4d1ac4a15e2a5429a028951e4d107c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

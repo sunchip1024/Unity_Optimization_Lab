@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c48d5c1e7f2a67448d41711caf9e6e5, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: Assembly-CSharp::OptimizationLab.LabGameSettings
+  seed: 1313
+  duration: 180
+  playerSpeed: 6
+  maxEnemies: 180
+  spawnPerSecond: 5
+  maxProjectiles: 160
+  maxGems: 300
+  playerPrefab: {fileID: 4065027128566191239, guid: b6c4035091aed47479acbe5dfab3376c, type: 3}
+  enemyPrefab: {fileID: 3147047781835337449, guid: 537122e3996767c4d950e1c95c511010, type: 3}
+  projectilePrefab: {fileID: 8438280628210322233, guid: 3e2e4546f925aed49b2431022e020a66, type: 3}
+  gemPrefab: {fileID: 3201620297504185459, guid: 1e7722932da14dd40a91989cba9b055d, type: 3}
+  orbitPrefab: {fileID: 1174147739845648346, guid: 02dda437112ed56468ff778796f4575d, type: 3}
+  crowdMesh: {fileID: 4300000, guid: 76fa913f832b1e14aaf32957abdbac4d, type: 2}
+  crowdMaterial: {fileID: 2100000, guid: e9a4fa8f48550e64080b0177260409d1, type: 2}
+  ultimateMaterial: {fileID: 2100000, guid: 1ce6ee80592aa794cb41314acee52db7, type: 2}
